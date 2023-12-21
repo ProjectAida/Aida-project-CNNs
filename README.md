@@ -40,6 +40,20 @@
    - Activate your environment (`conda activate myenv`).
    - Navigate to your `requirements.txt` file (`cd /path/to/directory`).
    - Run `pip install -r requirements.txt`.
+   
+# Instructions for Using and Fine-Tuning Poem Detection Models
+
+## Basic Poem Detection:
+- To use pre-trained models for detecting poems on newspaper pages, run the notebook `detect_poem_page.ipynb`. We recommend to use the LeNet-9 model.
+
+## Fine-Tuning Pre-Trained Models:
+1. **Step 1:** Start by segmenting newspaper pages into individual snippet images using `segment_page.ipynb`.
+2. **Step 2:** Categorize the segmented snippet images into two groups:
+   - Images containing poems.
+   - Images not containing poems.
+3. **Step 3:** Prepare lists of training and validation snippet images. It is advisable to use a ratio of 9:1 for this split.
+4. **Step 4:** Perform fine-tuning on the models using `fine_tune.ipynb`.
+5. **Step 5:** For poem detection using the fine-tuned models, run `detect_poem_page.ipynb` and modify the setting "finetuned" to `True`.
 
 # License
 This project is part of the Aida project (projectaida.org) for which license information can be found on https://github.com/ProjectAida/aida. 
