@@ -63,5 +63,5 @@ This project is part of the Aida project (projectaida.org) for which license inf
    - Soh, Leen-Kiat, Elizabeth Lorang, and Yi Liu. "Aida: intelligent image analysis to automatically detect poems in digital archives of historic newspapers." In Proceedings of the AAAI Conference on Artificial Intelligence, vol. 32, no. 1. 2018.
 
 
-Code in files, datagen_image.py and model_factory.py, is created by Yi Liu (email:yil@unl.edu) at Aida team at University of Nebraska-Lincoln. All rights are reserved. 
+Code in files, datagen_image.py and model_factory.py, is created by Yi Liu (email:yil at unl.edu) at Aida team at University of Nebraska-Lincoln. All rights are reserved. 
 
